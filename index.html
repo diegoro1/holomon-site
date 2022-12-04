@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Holomon</title>
+  </head>
+  <body>
+    <!-- navigation bar: description, docs, about us, github -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Holomon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Documents</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                    </li>
+                </ul>
+                <span class="nav-item">
+                    <a href="https://github.com/Nathan713/Holomon" class="nav-link" id="github-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- logo -->
+    <div id="logo">
+        <img src="assets/logo.png" alt="Holomon-logo">
+    </div>
+
+    <!-- about the project -->
+    <div id="desc">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="title">ABOUT</h2>
+            </div>
+            <p class="about">
+                The goal of this project is to create a holographic pokemon that a user can interact with using gesture based recognition and a webcam. We received permission from The Pokémon Company (North America) to utilize Pokémon assets for solely educational purposes, which is the intent behind this project. While not a true hologram, the team decided to use Pepper's Ghost Illusion as a substitute due to financial and time restraints. Additionally,currently there is limited technology in 3D volumetric displays which increased the price point in developing a more "holographic" solution. In a sense, the team aims to create a proof of concept for what can be the next step in bridging the gap between reality and virtual entertainment systems without the need for special AR/VR glasses / wearable technology.
+            </p>
+        </div>
+    </div>
+
+    <!-- doc caro -->
+    <div id="car">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="title">DOCUMENTS</h2>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active car-img">
+                    <img src="./assets/background.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5>EEL 4914 Documentation</h5>
+                      <p>The initial documentation for Holomon.</p>
+                      <button type="button" class="btn btn-primary btn-lg">Download</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item car-img">
+                    <img src="./assets/background.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ">
+                      <h5>CRD</h5>
+                      <p>The CRD from EEL 4915.</p>
+                      <button type="button" class="btn btn-primary btn-lg">Download</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item car-img">
+                    <img src="./assets/background.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5>Conference Paper</h5>
+                      <p>Holomon's conference paper.</p>
+                      <button type="button" class="btn btn-primary btn-lg">Download</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item car-img">
+                    <img src="./assets/background.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5>Final Presenation</h5>
+                      <p>Holomon's final presentation to committee.</p>
+                      <button type="button" class="btn btn-primary btn-lg">Download</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item car-img">
+                    <img src="./assets/background.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                      <h5>Final Documentation</h5>
+                      <p>Holomon's final documentation.</p>
+                      <button type="button" class="btn btn-primary btn-lg">Download</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="block-diag">
+        <div class="container">
+            <div class="title-wrapper">
+                <h2 class="title">BLOCK DIAGRAM</h2>
+            </div>
+            <div class="d-flex justify-content-center flex-column block-wrapper">
+                <img id="block-diag" src="./assets/block.png" alt="block-diagram">
+                <p class="about">
+                    This is how data flows through holomon.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer"></div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

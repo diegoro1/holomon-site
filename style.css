@@ -1,0 +1,58 @@
+#github-icon {
+    color: gray;
+}
+
+#github-icon:hover,
+#github-icon::selection {
+    color: black;
+}
+
+#logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url("./assets/background.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+.title {
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 15px 0;
+}
+
+#car {
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+}
+
+.car-img img {
+    height: 450px;
+    max-height: 450px;
+    width: auto;
+    object-fit: cover;
+}
+
+#footer {
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-caption button {
+    background-color: black;
+    border: black;
+}
