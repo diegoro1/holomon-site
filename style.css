@@ -33,7 +33,7 @@
     margin: 35px 0 15px 0;
 }
 
-#car {
+.gray-bg {
     padding-top: 1px;
     padding-bottom: 50px;
     background-color: rgb(244, 244, 244);
@@ -64,4 +64,10 @@
 .carousel-item img.overlay {
     mix-blend-mode: overlay;
     filter: blur(4px);
+}
+
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
