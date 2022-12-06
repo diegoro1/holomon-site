@@ -71,3 +71,19 @@
     display: flex;
     justify-content: center;
 }
+
+.cdr-vid {
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
